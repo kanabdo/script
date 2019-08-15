@@ -7,7 +7,7 @@
 //calculate gcd using recursive
 function gcd_recursive(x,y){
   if(y==0){
-    return x
+    return x;
   }
   return gcd_recursive(y,x%y);	
 }
