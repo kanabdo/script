@@ -6,7 +6,7 @@
 
 //calculate gcd using recursive
 function gcd_recursive(x,y){
-  if (typeof(x) !== 'number' ||  typeof(y) !== 'number'){
+  if(isNaN(x) || isNaN(y) ){
     alert("please make sure the two values are numbers");
     return false;
   }
