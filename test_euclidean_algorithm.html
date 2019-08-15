@@ -1,24 +1,19 @@
 <html>
-
-	<head>
-	<!-- The purpose of this file is to test euclidean_algorith.js functions   -->
-		<script type="text/javascript" src="euclidean_algorithm.js"></script>
-		<title>TEST GCD (Euclidean algorithm)</title>
-	</head>
-
-	<script>
-		var x = prompt("Please the 1st element: ", "");
-		var y = prompt("Please enter the 2nd element: ", "");
-		x = x.trim();
-		y = y.trim();
-		if (x && y ) { 
-		  var _results = gcd(x,y) 
-		  console.log( "The gcd is: " + _results );
-		  alert("The gcd is: " + _results );
-		}
-		
-		console.log("gcd_recursive:" + gcd_recursive(x,y));
-	</script>
-	
-	
+  <head>
+    <!-- The purpose of this file is to test euclidean_algorith.js functions   -->
+    <script type="text/javascript" src="euclidean_algorithm.js"></script>
+    <title>TEST GCD (Euclidean algorithm)</title>
+  </head>
+  <script>
+    var x = prompt("Please the 1st element: ", "");
+    var y = prompt("Please enter the 2nd element: ", "");
+    x = x.trim();
+    y = y.trim();
+    if (x && y ) { 
+      var _results = gcd(x,y) 
+      console.log( "The gcd is: " + _results );
+      alert("The gcd is: " + _results );
+    }
+    console.log("gcd_recursive:" + gcd_recursive(x,y));
+  </script>
 </html>
