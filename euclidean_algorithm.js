@@ -6,6 +6,10 @@
 
 //calculate gcd using recursive
 function gcd_recursive(x,y){
+  if (typeof(x) !== 'number' ||  typeof(y) !== 'number'){
+    alert("please make sure the two values are numbers");
+    return false;
+  }
   if(y==0){
     return x;
   }
