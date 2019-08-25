@@ -1,0 +1,13 @@
+A recruiter once asked me to tell him about my understanding of networking concepts and UNIX operating systems and here is my answer:
+
+Networking is a collection of mobile phones, computers, IoT devices, servers, mainframes, peripherals
+and many other kinds of devices that are connected to each other to share the ressources. The perfect example of networking is the internet
+where you can see that millions of people are connected over different platforms.
+
+However UNIX is an OS which is developed in 1969 at AT&T. This OS is installed over millions of
+devices so far. This OS supports features like multitasking, an interface to program
+customize applications, multi-users, daemons, file system, networking, and many
+others. Hardware for the system required for Unix is CPU, network card, memory, etc.
+Actually, there are three main parts of Unix OS: file system, kernel, and shell.
+
+Can anyone tell me what is wrong with this answer?
