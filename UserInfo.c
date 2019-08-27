@@ -22,7 +22,7 @@ int main(){
 
 /*
     I should change this function to return an array info[4] such that:
-    info[0]=osName ; info[1]=computerName ; info[0]=userName ; info[0]=userProfile
+    info[0]=osName ; info[1]=computerName ; info[2]=userName ; info[3]=userProfile
 */
 const char* getOsName(){
 
