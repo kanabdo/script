@@ -10,8 +10,7 @@ const char* getOsName();
 int main(){
     char buffer[MAX_COMPUTERNAME_LENGTH + 1];
     DWORD size = MAX_COMPUTERNAME_LENGTH + 1 ;
-    GetComputerName( buffer, &size ); // Works ONLY on Windows
-
+    GetComputerName( buffer, &size ); // Works ONLY on Window
     printf("Operating system \t= %s\n", getOsName());
     printf( "Computer name \t\t= %s\n", buffer );
     printf("User name \t\t= %s\n",getenv("username"));
@@ -25,7 +24,6 @@ int main(){
     info[0]=osName ; info[1]=computerName ; info[2]=userName ; info[3]=userProfile
 */
 const char* getOsName(){
-
     #ifdef _WIN32
     return "Windows 32-bit";
     #elif _WIN64
@@ -41,6 +39,5 @@ const char* getOsName(){
     #else
     return "Other";
     #endif
-
 }
 
